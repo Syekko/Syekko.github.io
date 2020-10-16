@@ -1,0 +1,183 @@
+header
+{
+   background: #1C1C1C;
+    color: white;
+    padding-top: 20px;
+}
+a
+{
+    opacity: 70%;
+}
+a:hover
+{
+    opacity: 100%;
+}
+a:link
+{
+    text-decoration:none;
+}
+
+header ul
+{
+    list-style: none;
+}
+
+header li
+{
+    display: inline;
+    padding-right: 50px;
+    color: white;
+}
+.img-accueil
+{
+    margin-top: 85px;
+}
+.titre
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -600px;
+    font-family: "Yeseva One", serif;
+    left: 100px;
+}
+h1
+{
+    text-align: inherit;
+    font-size: 3rem;
+}
+.soulignement-titre
+{
+    width: 140px;
+    height: 3px;
+    background-color:black;
+
+}
+.soulignement
+{
+    background-color:#BFA892;
+    width: 140px;
+    height: 3px;
+}
+.sous-titre
+{
+    text-decoration: underline #BFA892;
+    margin-left: 250px;
+    padding: 40px;
+}
+.hashtag
+{
+    list-style: none;
+    padding: 0;
+}
+.hashtag li
+{
+    display: inline;
+    background-color: #BFA892;
+    color: #F4F4F4;
+    padding: 5px;
+    border-radius: 8px;
+}
+.carousel-moncss
+{
+    display: flex !important;
+    margin-left: 210px;
+}
+.carousel-moncss>div
+{
+    margin-left: 50px;
+}
+.carousel-moncss p
+{
+    height: 100px;
+
+}
+.carousel-moncss a
+{
+    color:  #BFA892;
+}
+.cercle-jaune
+{
+    background:#FADD4F;
+    border-radius:50%;
+    width:74px;
+    height:74px;
+    position: absolute;
+    z-index: -1;
+    left: 107px;
+}
+.chiffre
+{
+    font-family:"Nimbus Sans Becker OutDBol";
+    font-size: 3.5rem;
+    text-align: center;
+}
+.affichage-chiffres
+{
+    padding: 50px;
+}
+.affichage-chiffres p
+{
+    text-align: center;
+}
+.departement
+{
+    background-color: white;
+    padding: 0;
+    margin-right: 60px;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+.departement h6 {
+    font-size: 1.5rem;
+    padding-top: 30px;
+}
+.decouvrir
+{
+    color: white;
+    background-color:#BFA892 ;
+    border-radius: 20px;
+    padding: 10px 10px 10px 50px;
+}
+footer
+{
+    background-color: black;
+}
+footer p
+{
+    color: white;
+}
+body
+{
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+}
+.nav-gauche
+{
+    top: 350px;
+    left: 50px;
+}
+.nav-gauche li
+{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.nav-gauche>ul>li
+{
+    font-weight: bold;
+}
+.carre-rouge
+{
+    width:122px;
+    height:122px;
+    background:#AF3033;
+    margin-top: 500px;
+}
+.carre-bleu
+{
+    width:61px;
+    height:61px;
+    background-color: #264294;
+}
