@@ -1,7 +1,7 @@
 header
 {
-   background: #1C1C1C;
-    color: white;
+   background: white;
+    color: black;
     padding-top: 20px;
 }
 a
@@ -26,7 +26,7 @@ header li
 {
     display: inline;
     padding-right: 50px;
-    color: white;
+    color: black;
 }
 .img-accueil
 {
@@ -180,4 +180,49 @@ body
     width:61px;
     height:61px;
     background-color: #264294;
+}
+.actu
+{
+    margin-left: 250px; padding: 50px; color: black;
+}
+@media screen and (max-width: 640px) {
+    .mobile-invisble {
+        display:none;
+    }
+    .titre
+    {
+        top: 0;
+        left: 0;
+    }
+    h1 {
+        font-size: 1.3rem;
+    }
+
+   .sous-titre
+   {
+       padding: 0;
+       margin-left: 40px;
+       font-size: 1.4rem;
+       padding-top: 30px;
+       padding-bottom: 30px;
+   }
+   .carousel-moncss
+   {
+       margin-left: 0;
+   }
+   .carousel-moncss img
+   {
+       width: 75%;
+   }
+   .img-accueil
+   {
+       width: 360px;
+       height: 240px;
+       overflow: hidden;
+   }
+   .actu
+   {
+       margin-left: 30px;
+       padding: 0;
+   }
 }
