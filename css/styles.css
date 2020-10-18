@@ -4,6 +4,10 @@ header
     color: black;
     padding-top: 20px;
 }
+.pc-invisible
+{
+    display: none;
+}
 a
 {
     opacity: 70%;
@@ -32,6 +36,10 @@ header li
 {
     margin-top: 85px;
 }
+.logo
+{
+    margin-left: 80px;
+}
 .titre
 {
     display: block;
@@ -41,6 +49,10 @@ header li
     top: -600px;
     font-family: "Yeseva One", serif;
     left: 100px;
+}
+h2,h3,h4,h5,h5,p,a
+{
+    font-family: "Liberation Sans", serif;
 }
 h1
 {
@@ -189,6 +201,16 @@ body
     .mobile-invisble {
         display:none;
     }
+    .logo
+    {
+        margin-left: 40px;
+        width: 75%;
+        height: auto;
+    }
+    .pc-invisible
+    {
+        display: contents;
+    }
     .titre
     {
         top: 0;
@@ -197,7 +219,10 @@ body
     h1 {
         font-size: 1.3rem;
     }
-
+    header li
+    {
+        padding-right: 20px;
+    }
    .sous-titre
    {
        padding: 0;
