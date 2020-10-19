@@ -197,9 +197,42 @@ body
 {
     margin-left: 250px; padding: 50px; color: black;
 }
+.menu
+{
+    position: absolute;
+    left: -1000px;
+}
+.sous-titre-domaine
+{
+    margin-left: 280px;
+}
 @media screen and (max-width: 640px) {
+    .menu{
+        background-color: black;
+        width: 100%;
+    }
+    .menu li {
+        list-style-type: none;
+        color: white;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .menu ul
+    {
+        padding: 0;
+    }
+    .menu-open
+    {
+        position: absolute;
+        left: 0px;
+        z-index: 1031;
+    }
     .mobile-invisble {
         display:none;
+    }
+    .img-accueil-mobile{
+        margin-top: 50%;
     }
     .logo
     {
@@ -209,12 +242,12 @@ body
     }
     .pc-invisible
     {
-        display: contents;
+        display: initial;
     }
     .titre
     {
-        top: 0;
-        left: 0;
+        top: -320px;
+        left: 80px;
     }
     h1 {
         font-size: 1.3rem;
@@ -239,15 +272,51 @@ body
    {
        width: 75%;
    }
-   .img-accueil
-   {
-       width: 360px;
-       height: 240px;
-       overflow: hidden;
-   }
    .actu
    {
        margin-left: 30px;
        padding: 0;
+       margin-top: 30px;
+       margin-bottom: 30px;
+   }
+    .affichage-chiffres p
+     {
+         font-size: 0.9rem;
+     }
+   .chiffre
+   {
+       font-size: 2.5rem !important;
+   }
+    .sous-titre-domaine
+    {
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+    .departement
+    {
+        padding-bottom: 0px;
+        width: 33%;
+        margin-bottom: 35px;
+        margin-right: 35px;
+    }
+    .departement h6
+    {
+        font-size: 1rem;
+    }
+    .stats
+    {
+        width: 50%;
+    }
+    .cercle-jaune
+    {
+        left: 30px;
+    }
+    .mrowc
+    {
+        display: flex;
+    }
+   .noscroll
+   {
+       overflow: hidden;
    }
 }

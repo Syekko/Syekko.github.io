@@ -24,7 +24,7 @@
                     <a class="mobile-invisble" href="#"> <li>INTERNATIONAL</li></a>
                     <a class="mobile-invisble" href="#"> <li>CONTACTS</li></a>
                     <a class="mobile-invisble" href="#"> <li>RECHERCHE</li></a>
-                    <a href="#" class="pc-invisible"><li><svg xmlns="http://www.w3.org/2000/svg" width="20.169" height="13.446" viewBox="0 0 20.169 13.446">
+                    <a href="#" class="pc-invisible menu-toggle"><li><svg xmlns="http://www.w3.org/2000/svg" width="20.169" height="13.446" viewBox="0 0 20.169 13.446">
                         <path id="menu_hamburger" data-name="menu hamburger" d="M4.5,22.446H24.669V20.2H4.5Zm0-5.6H24.669V14.6H4.5ZM4.5,9v2.241H24.669V9Z" transform="translate(-4.5 -9)" fill="#151515"/>
                     </svg>
                     </li></a>
@@ -42,16 +42,39 @@
 
             </div>
         </div>
+
 </header>
+<div class="menu pc-invisible ">
+    <ul>
+        <li><img src="img/pdjaerienblanc.png" height="162" width="130" alt="vu"/></li>
+         <li>  <svg xmlns="http://www.w3.org/2000/svg" width="27.207" height="28.039" viewBox="0 0 27.207 28.039">
+            <g id="Groupe_5" data-name="Groupe 5" transform="translate(0 -0.168)">
+                <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(0 0.168)" fill="none" stroke="#FFF" stroke-width="2">
+                    <circle cx="10" cy="10" r="10" stroke="none"/>
+                    <circle cx="10" cy="10" r="9" fill="none"/>
+                </g>
+                <line id="Ligne_1" data-name="Ligne 1" x2="11" y2="11" transform="translate(15.5 16.5)" fill="none" stroke="#FFF" stroke-width="2"/>
+            </g>
+        </svg>
+    </li>
+        <li>FORMATIONS</li>
+        <li>INFORMATIONS</li>
+        <li>VIE ETUDIANTE</li>
+        <li>ACTAULITE</li>
+        <li>INTERNATIONAL</li>
+        <li>CONTACTS</li>
+        <li>RECHERCHE</li>
+    </ul>
+</div>
     <div  class="row mrow">
         <img src="img/accueil.png" height="951" width="1933" class="img-fluid img-accueil mobile-invisble" alt="pôle universaitre svg"/>
 
-        <img src="img/accueilmobile.png" height="381" width="399" class="pc-invisible img-accueil img-fluid"  />
+        <img src="img/accueilmobile.png" height="381" width="399" class="pc-invisible img-accueil-mobile img-fluid"  />
         <div class="titre">
         <h1>Bienvenue <br>
             au campus<br>
             des Portes du Jura</h1>
-        <div class="soulignement-titre"></div>
+        <div class="soulignement-titre mobile-invisble"></div>
         </div>
     </div>
 <div class="row mrow " style="background-color:#F4F4F4 ">
@@ -198,21 +221,23 @@
         <div class="soulignement mx-auto"></div>
         </div>
         <div class="row mrow affichage-chiffres">
-        <div class="col-lg-4">
+
+        <div class="col-lg-4 stats">
             <div class="cercle-jaune"></div>
             <p class="chiffre">2000</p>
             <p>Étudiants dans les
                 différentes formations
                 du pôle</p>
         </div>
-            <div class="col-lg-4">
+
+            <div class="col-lg-4 stats">
                 <div class="cercle-jaune"></div>
                 <p class="chiffre">7000</p>
                 <p>Étudiants dans les
                     différentes formations
                     du pôle</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 stats">
                 <div class="cercle-jaune"></div>
                 <p class="chiffre">1200</p>
                 <p>Étudiants dans les
@@ -220,22 +245,22 @@
                     du pôle</p>
             </div>
         </div>
-        <div class="row mrow affichage-chiffres">
-            <div class="col-lg-4">
+        <div class="row mrowc  affichage-chiffres">
+            <div class="col-lg-4 stats">
                 <div class="cercle-jaune"></div>
                 <p class="chiffre">12</p>
                 <p>Étudiants dans les
                     différentes formations
                     du pôle</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 stats">
                 <div class="cercle-jaune"></div>
                 <p class="chiffre">3</p>
                 <p>Étudiants dans les
                     différentes formations
                     du pôle</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 stats">
                 <div class="cercle-jaune"></div>
                 <p class="chiffre">360</p>
                 <p>Étudiants dans les
@@ -243,36 +268,39 @@
                     du pôle</p>
             </div>
         </div>
+
     </div>
 </div>
+
 <div class="row mrow">
-    <div class="col-lg-12" style="background-color:rgba(175, 48, 51, 0.25); ">
+    <div class="col-lg-12 col-sm-12 col-md-12" style="background-color:rgba(175, 48, 51, 0.25); ">
     <h4 class="sous-titre font-weight-bold">Les formations</h4>
-        <p style="margin-left: 280px;">Quels domaines ci-dessous suscite votre attention ? </p>
+        <p class="sous-titre-domaine">Quels domaines ci-dessous suscite votre attention ? </p>
    <div class="row mrow" style="justify-content: center; padding-bottom: 150px">
-    <div class="col-lg-2 departement">
+    <div class="col-lg-2 col-md-5 col-sm-5 departement">
         <img src="img/departement.png" alt="departement" class="img-fluid">
         <h6 style="margin-bottom: 50px;">Technologie</h6>
-        <a href="#" class="decouvrir">Découvrir <img src="img/fleche-rond-blanc.png" class="img-fluid" style="margin-left: 30px" height="18" width="18"/></a>
+        <a href="#" class="mobile-invisble decouvrir">Découvrir <img src="img/fleche-rond-blanc.png" class="img-fluid" style="margin-left: 30px" height="18" width="18"/></a>
     </div>
-    <div  class="col-lg-2  departement">
+    <div  class="col-lg-2 col-md-5 col-sm-5 departement">
         <img  src="img/departement.png" alt="departement" class="img-fluid">
         <h6 style="margin-bottom: 50px;">Santé</h6>
-        <a href="#" class="decouvrir">Découvrir <img src="img/fleche-rond-blanc.png" class="img-fluid" style="margin-left: 30px" height="18" width="18"/></a>
+        <a href="#" class="mobile-invisble decouvrir">Découvrir <img src="img/fleche-rond-blanc.png" class="img-fluid" style="margin-left: 30px" height="18" width="18"/></a>
     </div>
-    <div  class="col-lg-2  departement">
+    <div  class="col-lg-2 col-md-5 col-sm-5 departement">
         <img  src="img/departement.png" alt="departement" class="img-fluid">
         <h6 style="margin-bottom: 50px;">Sciences</h6>
-        <a href="#" class="decouvrir">Découvrir <img src="img/fleche-rond-blanc.png" class="img-fluid" style="margin-left: 30px" height="18" width="18"/></a>
+        <a href="#" class=" mobile-invisble decouvrir">Découvrir <img src="img/fleche-rond-blanc.png" class="img-fluid" style="margin-left: 30px" height="18" width="18"/></a>
     </div>
-    <div  class="col-lg-2  departement">
+    <div  class="col-lg-2 col-md-5 col-sm-5 departement">
         <img  src="img/departement.png" alt="departement" class="img-fluid">
         <h6 style="margin-bottom: 50px;">Gestion</h6>
-        <a href="#" class="decouvrir">Découvrir <img src="img/fleche-rond-blanc.png" class="img-fluid" style="margin-left: 30px" height="18" width="18"/></a>
+        <a href="#" class=" mobile-invisble decouvrir">Découvrir <img src="img/fleche-rond-blanc.png" class="img-fluid" style="margin-left: 30px" height="18" width="18"/></a>
     </div>
     </div>
 </div>
 </div>
+
 <footer>
     <p>Pôle Porte Du Jura
         Montbéliard 25000
@@ -280,4 +308,15 @@
     </p>
 </footer>
 </body>
+<script>
+    const menutoggle = document.querySelector(".menu-toggle");
+    const menu=document.querySelector(".menu");
+    const page = document.documentElement;
+    function doToggle()
+    {
+        menu.classList.toggle('menu-open');
+        page.classList.toggle('noscroll');
+    }
+    menutoggle.addEventListener('click',doToggle);
+</script>
 </html>
